@@ -1,0 +1,10 @@
+# 비즈링 오류 체크
+- 비즈링 히스토리 조회
+  - 히스토리 Search 요청 시 Page가 2로 리턴됨
+- 비즈링 상세 조회
+  - 500 에러 발생
+  - http://dev.vcoloring.com:3000/v1/contents/199
+- 등록임직원 목록 조회
+  - 500 에러 발생
+  - http://dev.vcoloring.com:3000/v1/company/user/search
+  - {"pageable":{"page":1,"size":10},"companyId":732}
